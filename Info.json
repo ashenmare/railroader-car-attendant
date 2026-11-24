@@ -1,0 +1,16 @@
+{
+  "identifier": "ashenmare/car-attendant",
+  "version": "0.1.5",
+  "name": "Car Attendant",
+  "author": "ashenmare",
+  "scope": "optional",
+  "assemblies": [
+    "CarAttendant.dll"
+  ],
+  "dependencies": {
+    "required": [
+      "rr/game >=0.6.2"
+    ]
+  },
+  "description": "Riders stop marking you down for a coach that's a little worn. It does not repair cars or change their condition: it changes how the riders rate a worn coach in reputation's Passenger: Equipment Condition. A coach at the threshold (80% by default) or better counts as perfect; below it the score falls off in proportion (40% counts as 50%). Set the threshold in Preferences > Mods; 100% is the game's own rating. Host side."
+}
